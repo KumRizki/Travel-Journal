@@ -11,22 +11,45 @@ body {
 }
 
 header {
-    background: #F55A5A;
+    background: #218b82;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    height: 55px;
+    height: 80px;
 }
 
 header > img {
-    width: 24px;
+    width: 30px;
     margin-right: 7px;
 } 
 
 header > h1 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 500;
+}
+
+.intro {
+    margin-top: 20px;
+    display: block;
+}
+
+.intro .introTitle {
+    font-weight: 800;
+}
+
+.intro .introText {
+    font-weight: 400;
+    text-align: justify;
+}
+
+.intro > hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.intro > h4 {
+    font-weight: 600;
 }
 
 article.journal-entry {
@@ -54,7 +77,7 @@ article.journal-entry .main-image {
     object-fit: cover;
 }
 
-.info-container span.country {
+.info-container span.city {
     text-transform: uppercase;
     font-size: 0.7rem;
     margin-right: 12px;

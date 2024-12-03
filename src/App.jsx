@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Entry from "./components/Entry"
+import Intro from "./components/Intro"
 import data from "./data"
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <>
             <Header />
             <main className="container">
+                <Intro />
                 {entryElements}
             </main>
         </>
